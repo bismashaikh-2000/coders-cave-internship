@@ -1,12 +1,7 @@
-# Task2
-# Calculator
-# I made a calculator by python object-oriented programming which is based on classes and objects
+# Task1
+# Simple Calculator
 
-# import abstract method to make a abstract class
 from abc import ABCMeta, abstractmethod, ABC
-
-
-# classes for basic mathematical operation
 class Operation(metaclass=ABCMeta):
 
     def input_operands(self):
@@ -59,7 +54,7 @@ try:
         print("Here's your basic operation:")
         print('PRESS[1] FOR ADDITION \nPRESS[2] FOR SUBTRACTION \nPRESS[3] FOR MULTIPLICATION \nPRESS[4] FOR DIVISION')
         print('PRESS[5] FOR EXIT\n')
-        choice = int(input('Which operation do you want to perform:'))
+        choice = int(input('Which operation do you want to perform?'))
 
         if choice == 1:
             a1 = Addition_operation()
