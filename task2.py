@@ -1,5 +1,5 @@
-# task 3
-# Random Password Generator Application
+# task 2
+# Random Password Generate with the help of Python
 
 import random
 import string
